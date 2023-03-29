@@ -2,7 +2,7 @@
   "name": "labb2test",
   "homepage": "https://eduoskar.github.io/portfolio/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
