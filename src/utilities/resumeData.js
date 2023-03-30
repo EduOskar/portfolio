@@ -32,7 +32,7 @@ export default {
     },
   },
   about:
-    "Idrotten har spelat en viktig roll i mitt liv. En av de viktigaste lärdomarna jag har tagit med mig från idrotten är att jag måste göra mitt bästa för att gruppen ska ha största möjliga chans att nå slutmålet. Utöver detta har både idrott och arbetsliv gett mig andra fördelar. Jag trivs med att arbeta i högt tempo, men jag förstår också vikten av att inte stressa igenom projekt. Samarbetet mellan kollegor är viktigt för en bra gruppdynamik, men det är också viktigt för individen att vara förberedd att göra sin del av arbetet. Av allt jag har lärt mig vill jag dock betona en punkt som jag anser vara min största styrka: jag har en enorm motivation att lära mig nya saker, oavsett vad det handlar om. Ett av mina största intressen har alltid varit idrott, och jag har prövat på många olika sporter under min uppväxt. Jag fastnade tidigt för ishockey och fotboll och spelade dessa sporter i många år, men slutade 2016. Efter detta började jag träna kampsport, och jag tränade MMA (mixed martial arts) och BJJ (braziliansk jiu-jitsu) i sex år innan jag tvingades sluta på grund av skador. Min förhoppning är att jag ska få möjlighet att visa min potential och att ni ger mig chansen att göra ett bra jobb hos er. Jag är övertygad om att ni inte kommer att bli besvikna. Mvh, Oskar Åhling.",
+    "Idrotten har spelat en viktig roll i mitt liv. En av de viktigaste lärdomarna jag har tagit med mig från idrotten är att jag måste göra mitt bästa för att gruppen ska ha största möjliga chans att nå slutmålet. Utöver detta har både idrott och arbetsliv gett mig andra fördelar. Jag trivs med att arbeta i högt tempo, men jag förstår också vikten av att inte stressa igenom projekt. Samarbetet mellan kollegor är viktigt för en bra gruppdynamik, men det är också viktigt för individen att vara förberedd att göra sin del av arbetet. Av allt jag har lärt mig vill jag dock betona en punkt som jag anser vara min största styrka: jag har en enorm motivation att lära mig nya saker, oavsett vad det handlar om. Ett av mina största intressen har alltid varit idrott och jag har prövat på många olika sporter under min uppväxt. Jag fastnade tidigt för ishockey och fotboll och spelade dessa sporter i många år, men slutade 2016. Efter detta började jag träna kampsport, jag tränade MMA (Mixed martial arts) och BJJ (Braziliansk Jiu-jitsu) i sex år innan jag tvingades sluta på grund av skador. Min förhoppning är att jag ska få möjlighet att visa min potential och att ni ger mig chansen att göra ett bra jobb hos er. Jag är övertygad om att ni inte kommer att bli besvikna. Mvh, Oskar Åhling.",
   experiences: [
     {
       title: "SJAB",
@@ -40,10 +40,10 @@ export default {
       description: "Arbetade som tågvärd på SJ",
     },
     {
-      title: "ExpressByrån",
+      title: "Expresseyrån",
       date: "2020-2021",
       description:
-        "Arbetade som truckförare på expressbyrån i timrå innan den avdelningen stängdes ner",
+        "Arbetade som truckförare på Expressbyrån i Timrå innan den avdelningen stängdes ner",
     },
   ],
   education: [
@@ -51,11 +51,11 @@ export default {
       title: "Hälsoutvecklare",
       date: "2016-2018",
       description:
-        "Utbildade mig inom allt som skulle kunna klassa som hälsa: Personlig tränare, Kostrådgivare, Massör, HäsloCoach hos jakobsberg folkhögskola",
+        "Gick en bred utbildning som häsloutvecklare hos Jakobsberg folkhögskola där ingick: Personlig tränare, Kostrådgivare, Massör, HäsloCoach ",
     },
     {
       title: "Systemutvecklare.Net",
-      date: "2022-Ongoing",
+      date: "2022-Pågående",
       description:
         "Utbildar mig inom en rad ämnen som faller under systemutveckling inom .Net :ObjektOrienterad programmering, programmering av databaser, Agila metoder, webbutveckling frontend, WebbApplikationer i c#, ASP.Net, DesignMönster och arkitektur, DevOps, AI-Komponenter och machinelearning hos Edugrade ",
     },
@@ -68,7 +68,7 @@ export default {
       icon: <PublicOutlinedIcon />,
     },
     {
-      title: "Database",
+      title: "Databas",
       description: "Fortfarande under utbildning",
       icon: <StorageOutlinedIcon />,
     },
