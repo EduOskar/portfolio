@@ -51,7 +51,7 @@ export default {
       title: "Hälsoutvecklare",
       date: "2016-2018",
       description:
-        "Gick en bred utbildning som häsloutvecklare hos Jakobsberg folkhögskola där ingick: Personlig tränare, Kostrådgivare, Massör, HäsloCoach ",
+        "Gick en bred utbildning som häsloutvecklare hos Jakobsberg folkhögskola, där ingick: Personlig tränare, Kostrådgivare, Massör, HäsloCoach ",
     },
     {
       title: "Systemutvecklare.Net",
