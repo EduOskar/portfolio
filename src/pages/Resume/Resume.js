@@ -16,6 +16,7 @@ import {
   TimelineItem,
   TimelineSeparator,
 } from "@mui/lab";
+import headerScroll from "../../components/Header/Header";
 
 const Resume = () => {
   //Reading in from jsonfile

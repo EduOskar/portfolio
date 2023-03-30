@@ -33,9 +33,8 @@ const Header = (props) => {
           >
             Resume
           </Nav.Link>
-
           {/* Portfolio will be filled in when i get projects i have worked on outside of school/ that im proud of  */}
-          {/* Portfolio Link 
+
           <Nav.Link
             as={NavLink}
             to="./Portfolio"
@@ -44,16 +43,20 @@ const Header = (props) => {
             }
           >
             Portfolio
-          </Nav.Link> */}
+          </Nav.Link>
         </Nav>
 
         <div className="header_right">
           {Object.keys(resumeData.socials).map((key) => (
-            <a href={resumeData.socials[key].Link} target="_blank">
+            <a
+              link={resumeData.socials[key].link}
+              href={resumeData.socials[key].Link}
+              target="_blank"
+            >
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text={"Hire Me"} icon={<Telegram />} />
+          {/* <CustomButton text={"Hire Me"} icon={<Telegram />} /> */}
         </div>
       </Navbar.Collapse>
     </Navbar>

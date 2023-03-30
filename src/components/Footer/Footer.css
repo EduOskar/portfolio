@@ -8,6 +8,11 @@
     min-height: 70px;
     border-radius: 8px;
     padding: 20px 25px;
+    
+}
+
+.footer_container{
+    padding-bottom: 40px;
 }
 
 .footer .footer_copyright {

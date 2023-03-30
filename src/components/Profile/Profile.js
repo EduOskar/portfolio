@@ -55,7 +55,7 @@ const Profile = () => {
           ))}
         </CustomTimeLine>
         <div className="button_container">
-          <CustomButton text={"Welcome to my page"} icon={<FaceIcon />} />
+          {/* <CustomButton text={"Welcome to my page"} icon={<FaceIcon />} /> */}
         </div>
       </div>
     </div>

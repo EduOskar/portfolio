@@ -17,17 +17,17 @@ export default {
   socials: {
     Linkedin: {
       link: "https://www.linkedin.com/in/oskar-%C3%A5hling-708a99162/",
-      text: "MyLinkedIn",
+      text: "ClickMyLinkedIn",
       icon: <LinkedInIcon />,
     },
     Facebook: {
       link: "https://www.facebook.com/oskar.ahling/",
-      text: "MyFacebook ",
+      text: "ClickMyFacebook ",
       icon: <FacebookIcon />,
     },
     Github: {
       link: "https://github.com/EduOskar",
-      text: "MyGithub",
+      text: "ClickMyGithub",
       icon: <GitHubIcon />,
     },
   },
