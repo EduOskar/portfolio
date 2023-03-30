@@ -2,6 +2,8 @@ import { Description } from "@mui/icons-material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import PublicOutlinedIcon from "@mui/icons-material/PublicOutlined";
+import StorageOutlinedIcon from "@mui/icons-material/StorageOutlined";
 
 export default {
   name: "Oskar Åhling",
@@ -30,34 +32,66 @@ export default {
     },
   },
   about:
-    "Oskar Åhling är en ung man som bor i Sundsvall, en stad i norra Sverige. Han är känd för sin passion för friluftsliv och äventyr, och han spenderar ofta sin fritid med att vandra i de vackra skogarna och bergen som omger staden.\n\nEnligt lokala nyheter har Oskar deltagit i flera utmanande vandringar och klättringar i regionen, inklusive bestigningen av det högsta berget i norra Europa, Kebnekaise. Han har även varit involverad i miljöskyddsaktiviteter och arbetat med att bevara naturområden i regionen.\n\nUtöver hans passion för friluftsliv är Oskar också känd för sitt arbete som programmerare. Han har en examen i datavetenskap och har varit involverad i utvecklingen av flera digitala projekt, inklusive en mobilapplikation för vandrare som ger information om lederna i området.\n\nTrots att Oskar är ung har han redan gjort sig ett namn i Sundsvall som en modig och engagerad person som älskar utmaningar och strävar efter att göra en positiv skillnad i samhället.",
+    "Idrotten har spelat en viktig roll i mitt liv. En av de viktigaste lärdomarna jag har tagit med mig från idrotten är att jag måste göra mitt bästa för att gruppen ska ha största möjliga chans att nå slutmålet. Utöver detta har både idrott och arbetsliv gett mig andra fördelar. Jag trivs med att arbeta i högt tempo, men jag förstår också vikten av att inte stressa igenom projekt. Samarbetet mellan kollegor är viktigt för en bra gruppdynamik, men det är också viktigt för individen att vara förberedd att göra sin del av arbetet. Av allt jag har lärt mig vill jag dock betona en punkt som jag anser vara min största styrka: jag har en enorm motivation att lära mig nya saker, oavsett vad det handlar om. Ett av mina största intressen har alltid varit idrott, och jag har prövat på många olika sporter under min uppväxt. Jag fastnade tidigt för ishockey och fotboll och spelade dessa sporter i många år, men tyvärr tvingades jag sluta 2018. Efter detta började jag träna kampsport, och jag tränade MMA (mixed martial arts) och BJJ (braziliansk jiu-jitsu) i sex år innan jag tvingades sluta på grund av skador. Min förhoppning är att jag ska få möjlighet att visa min potential och att ni ger mig chansen att göra ett bra jobb hos er. Jag är övertygad om att ni inte kommer att bli besvikna. Mvh, Oskar Åhling.",
   experiences: [
     {
-      title: "work1",
-      date: "2018-present",
-      description: "Workworkwork sugsug",
+      title: "SJAB",
+      date: "2017-2022",
+      description: "Arbetade som tågvärd på SJ",
     },
     {
-      title: "work2",
-      date: "2016-2018",
-      description: "Workworkwork sugsug",
-    },
-    {
-      title: "work3",
-      date: "2014-2017",
-      description: "Workworkwork sugsug",
+      title: "ExpressByrån",
+      date: "2020-2021",
+      description:
+        "Arbetade som truckförare på expressbyrån i timrå innan den avdelningen stängdes ner",
     },
   ],
   education: [
     {
-      title: "education1",
-      date: "2010-2013",
-      description: "yesyes i did the study",
+      title: "Hälsoutvecklare",
+      date: "2016-2018",
+      description:
+        "Utbildade mig inom allt som skulle kunna klassa som hälsa: Personlig tränare, Kostrådgivare, Massör, HäsloCoach hos jakobsberg folkhögskola",
     },
     {
-      title: "education2",
-      date: "2013-2015",
-      description: "yesyes i did the study",
+      title: "Systemutvecklare.Net",
+      date: "2022-Ongoing",
+      description:
+        "Utbildar mig inom en rad ämnen som faller under systemutveckling inom .Net :ObjektOrienterad programmering, programmering av databaser, Agila metoder, webbutveckling frontend, WebbApplikationer i c#, ASP.Net, DesignMönster och arkitektur, DevOps, AI-Komponenter och machinelearning hos Edugrade ",
+    },
+  ],
+
+  services: [
+    {
+      title: "Web Developer",
+      description: "Fortfarande under utbildning",
+      icon: <PublicOutlinedIcon />,
+    },
+    {
+      title: "Database",
+      description: "Fortfarande under utbildning",
+      icon: <StorageOutlinedIcon />,
+    },
+  ],
+
+  skills: [
+    {
+      title: "Front-end",
+      description: [
+        "ReactJs",
+        "JavaScript",
+        "Typescript",
+        "Bootstrap",
+        "Material UI",
+      ],
+    },
+    {
+      title: "Back-end",
+      description: ["NodeJs", "C#", "Ms SQL Server", "MySQL", "ORM"],
+    },
+    {
+      title: "Other",
+      description: ["Git", "Github", "Agile"],
     },
   ],
 };

@@ -29,3 +29,83 @@
     margin-top: 6px;
  }
 /* End of timeline section */
+
+/* Services */
+.service{
+   height: 100%;
+   text-align: center;
+}
+.service .service_title {
+   font-size:  16px !important;
+   font-weight: 500 !important;
+   line-height: 35px !important;
+   text-align: center;
+}
+
+.service .service_description {
+   color: #989898;
+   border-color: var(--main-color) !important;
+   margin-right: 5px;
+   text-align: center;
+}
+
+.service_icon > .MuiSvgIcon-root{
+   vertical-align:baseline !important;
+   margin-left: 0 !important;
+   font-weight: 300 !important;
+   color: darkslategray !important;
+}
+/* End of services */
+
+/* Start of skills */
+.section{
+   padding-top: 20px;
+
+}
+.skill_container{
+   justify-items: center;
+   justify-content: center !important;
+   
+}
+.skill{
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+   min-height: 186px;
+   min-width: 150px;
+   height: 100%;
+
+}
+.skills_title{
+   text-align: center;
+}
+.skill_timelinedot{
+   background-color: var(--main-color) !important;
+   color: black !important;
+   justify-content: center;
+   text-align: center;
+}
+
+/* End of skills */
+
+/* Contact section */
+.section_contact{
+   padding-top: 45px;
+}
+.form_btn_container{
+   padding-top: 20px !important;
+}
+
+.contactInfo_item {
+   font: 14px !important;
+   color: #989898;
+}
+.contactInfo_item > span {
+   color: black;
+   font-weight: 500;
+   padding-left: 20px;
+}
+
+
+
+/* End of contact section */
