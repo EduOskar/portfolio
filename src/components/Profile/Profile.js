@@ -6,6 +6,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import CustomButton from "../Button/Button.js";
 import { TimelineContent, TimelineItem } from "@mui/lab";
 import "./Profile.css";
+import SecretEvent from "../SecretComponent2";
 import FaceIcon from "@mui/icons-material/Face";
 
 const CustomTimeLineItem = ({ title, text, link }) => (
@@ -37,7 +38,11 @@ const Profile = () => {
         <Typography className="title">{resumeData.title}</Typography>
       </div>
       <figure className="profile_image">
-        <img src={require("../../images/oskar.jpg")} alt="" />
+        <img
+          src={require("../../images/oskar.jpg")}
+          alt=""
+          onClick={<SecretEvent />}
+        />
       </figure>
 
       <div className="profile_information">

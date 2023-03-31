@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Portfolio from "./pages/Portfolio/Portfolio.js";
 import Resume from "./pages/Resume/Resume.js";
+import { SecretComponent } from "./components/SecretComponent";
 import {
   BrowserRouter as Router,
   HashRouter,
@@ -22,7 +23,7 @@ function App() {
         </Grid>
         <Grid item xs style={{ backgroundColor: "transparent" }}>
           <HashRouter>
-            {/* <Header /> */}
+            <Header />
             <div className="main-content container_shadow">
               <Routes>
                 <Route path="/" element={<Resume />} />
@@ -30,7 +31,7 @@ function App() {
               </Routes>
             </div>
           </HashRouter>
-
+          <SecretComponent />
           <Footer />
         </Grid>
       </Grid>
