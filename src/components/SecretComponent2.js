@@ -4,10 +4,10 @@ function changeColor(color) {
     "url('smiley.gif') blue repeat-x center";
 }
 
-function easterEgg_Run() {
+export function easterEgg_Run() {
   changeColor("pink");
 }
 
-function easterEggFix_Run() {
+export function easterEggFix_Run() {
   changeColor("white");
 }

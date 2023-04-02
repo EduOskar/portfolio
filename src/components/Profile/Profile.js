@@ -6,8 +6,20 @@ import PersonIcon from "@mui/icons-material/Person";
 import CustomButton from "../Button/Button.js";
 import { TimelineContent, TimelineItem } from "@mui/lab";
 import "./Profile.css";
-import SecretEvent from "../SecretComponent2";
 import FaceIcon from "@mui/icons-material/Face";
+import { Style } from "@mui/icons-material";
+
+function changeColor(color) {
+  document.body.style.color = color;
+}
+
+function easterEgg_Run() {
+  changeColor("green");
+}
+
+function easterEggFix_Run() {
+  changeColor("black");
+}
 
 const CustomTimeLineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -40,8 +52,9 @@ const Profile = () => {
       <figure className="profile_image">
         <img
           src={require("../../images/oskar.jpg")}
-          alt=""
-          onClick={<SecretEvent />}
+          alt="picture of Oskar Åhling"
+          onClick={easterEgg_Run}
+          onDoubleClick={easterEggFix_Run}
         />
       </figure>
 
