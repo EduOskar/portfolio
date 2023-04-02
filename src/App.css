@@ -67,3 +67,16 @@ opacity: 0.4;
 left: 0;
 background-color: var(--main-color);
 }
+
+.portfolio_container{
+  justify-content: center;
+  text-align: center;
+  padding: 35px;
+}
+.repo_text{
+  color: darkslategrey !important;
+  font: smaller !important;
+  line-height: 22px !important;
+  white-space: pre-line !important;
+
+}

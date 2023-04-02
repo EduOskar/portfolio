@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
+import "../../App.css";
+
 const Portfolio = () => {
   function loadRepositories() {
     fetch("https://api.github.com/users/EduOskar/repos")
@@ -21,14 +23,14 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio_container">
-      Portfolio
+      <h6 className="section_title_text">Portfolio</h6>
       <ul>
         {repos &&
           repos[0].map((repo) => {
             return (
-              <li key={repo.id}>
+              <div key={repo.id} className="">
                 {repo.name} - {repo.description}
-              </li>
+              </div>
             );
           })}
       </ul>
