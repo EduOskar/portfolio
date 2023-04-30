@@ -94,7 +94,7 @@ export default {
         "C#",
         "Ms SQL Server",
         "MySQL",
-        "ORM",
+        "LINQ och EF",
         "Webbapps i C#, ASP.NET",
         "Designmönster & arkitektur",
         "DevOps",
