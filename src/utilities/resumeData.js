@@ -78,16 +78,28 @@ export default {
     {
       title: "Front-end",
       description: [
-        "ReactJs",
+        "React",
+        "Html",
+        "Css",
         "JavaScript",
-        "Typescript",
         "Bootstrap",
         "Material UI",
       ],
     },
     {
-      title: "Back-end",
-      description: ["NodeJs", "C#", "Ms SQL Server", "MySQL", "ORM"],
+      title: "Courses",
+      description: [
+        "Programmering av databaser och SQL",
+        "C#",
+        "Ms SQL Server",
+        "MySQL",
+        "ORM",
+        "Webbutveckling Frotend",
+        "Webbapplikationer ei C#, ASP.NET",
+        "Designmönster och arkitektur",
+        "DevOps",
+        "AI-komponenter och machine learning",
+      ],
     },
     {
       title: "Other",
