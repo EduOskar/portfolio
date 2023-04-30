@@ -78,6 +78,7 @@ export default {
     {
       title: "Front-end",
       description: [
+        "Webbutveckling Frotend",
         "React",
         "Html",
         "Css",
@@ -89,16 +90,15 @@ export default {
     {
       title: "Courses",
       description: [
-        "Programmering av databaser och SQL",
+        "Databaser och SQL",
         "C#",
         "Ms SQL Server",
         "MySQL",
         "ORM",
-        "Webbutveckling Frotend",
-        "Webbapplikationer ei C#, ASP.NET",
-        "Designmönster och arkitektur",
+        "Webbapps i C#, ASP.NET",
+        "Designmönster & arkitektur",
         "DevOps",
-        "AI-komponenter och machine learning",
+        "AI-komponenter & machine learning",
       ],
     },
     {
