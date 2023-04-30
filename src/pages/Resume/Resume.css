@@ -68,11 +68,13 @@
    
 }
 .skill{
+   justify-content: center !important;
+   justify-items: center !important;
    border-radius: 8px;
    padding: 20px;
    box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
    min-height: 186px;
-   min-width: 150px;
+   min-width: 180px;
    height: 100%;
 
 }
@@ -84,6 +86,7 @@
    color: black !important;
    justify-content: center;
    text-align: center;
+   /* padding: 20px; */
 }
 
 /* End of skills */
