@@ -23,7 +23,7 @@ function App() {
         </Grid>
         <Grid item xs style={{ backgroundColor: "transparent" }}>
           <HashRouter>
-            <Header />
+            {/* <Header /> */}
             <div className="main-content container_shadow">
               <Routes>
                 <Route path="/" element={<Resume />} />
