@@ -26,8 +26,8 @@ function App() {
             {/* <Header /> */}
             <div className="main-content container_shadow">
               <Routes>
-                <Route path="/" element={<Resume />} />
-                <Route path="/Portfolio" element={<Portfolio />} />
+                {/* <Route path="/" element={<Resume />} />
+                <Route path="/Portfolio" element={<Portfolio />} /> */}
               </Routes>
             </div>
           </HashRouter>
