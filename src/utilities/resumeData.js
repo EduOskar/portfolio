@@ -37,13 +37,12 @@ export default {
     {
       title: "SJAB",
       date: "2017-2022",
-      description: "Arbetade som tågvärd på SJ",
+      description: "Tågvärd på SJ",
     },
     {
       title: "Expresseyrån",
       date: "2020-2021",
-      description:
-        "Arbetade som truckförare på Expressbyrån i Timrå innan den avdelningen stängdes ner",
+      description: "Truckförare på Expressbyrån i Timrå",
     },
   ],
   education: [
@@ -51,7 +50,7 @@ export default {
       title: "Hälsoutvecklare",
       date: "2016-2018",
       description:
-        "Gick en bred utbildning som häsloutvecklare hos Jakobsberg folkhögskola, där ingick: Personlig tränare, Kostrådgivare, Massör, HäsloCoach ",
+        "Utbildade mig till häsloutvecklare hos Jakobsberg folkhögskola, där ingick: Personlig tränare, Kostrådgivare, Massör, HäsloCoach ",
     },
     {
       title: "Systemutvecklare.Net",
