@@ -31,8 +31,7 @@ export default {
       icon: <GitHubIcon />,
     },
   },
-  about:
-    "Jag heter Oskar Åhling och utbildar mig till systemutvecklare inom C#.Net Där jag går en mängd kurser som förbereder mig väldigt bra för att genomföra en framgångsrik LIA hos er.\n\n Vem är jag som person och varför ska jag få LIA hos er?\n\nDet finns många kvalitéer som jag kan nämna, men dom 3 viktigaste vill jag säga är:\nJag är en social person som kommer överens med majoriteten av personer jag träffar\n\nJag är enormt intresserad av tekniken vi använder i dagsläget och jag vill vara delaktig i att utveckla dessa och näst-kommande tekniker inför framtiden.\n\nDen viktigaste Skulle jag säga är min inställning att det går att lära sig allt:\n Oavsett vad det gäller om så kan jag lära mig det, ber ni mig kunna eller lära mig något - Jag hittar jag ett sätt att lära mig det, oavsett vad.",
+  about: "",
   experiences: [
     {
       title: "SJAB",
